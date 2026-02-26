@@ -212,7 +212,7 @@ z = sin(angle) * orbitRadius
 y = 0  (flat ecliptic plane)
 ```
 
-**Delta time** (seconds since last frame) ensures orbit speed is completely frame-rate independent — the simulation runs identically at 30fps, 60fps, or 144fps.
+**Delta time** (seconds since last frame) ensures orbit speed is completely frame-rate independent — the simulation runs identically at 30fps, 60fps or 144fps.
 
 ---
 

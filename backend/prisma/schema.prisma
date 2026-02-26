@@ -1,0 +1,56 @@
+// This is the Prisma schema for Orbitalis
+// Run `prisma migrate dev` to apply migrations
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Planet {
+  id           Int    @id @default(autoincrement())
+  name         String @unique
+  radius       Float  // Visual radius in scene units
+  orbitRadius  Float  // Distance from sun in scene units
+  orbitalSpeed Float  // Radians per second
+  description  String
+  textureUrl   String
+  color        String // Fallback hex color if no texture
+  mass         Float? // In Earth masses (optional metadata)
+  moons        Int?   // Number of natural satellites
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("planets")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  username  String   @unique
+  email     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  simulations SavedSimulation[]
+
+  @@map("users")
+}
+
+model SavedSimulation {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  name        String
+  speed       Float    // Simulation speed multiplier
+  paused      Boolean  @default(false)
+  showLabels  Boolean  @default(true)
+  showOrbits  Boolean  @default(true)
+  cameraState Json     // Camera position/rotation snapshot
+  createdAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("saved_simulations")
+}

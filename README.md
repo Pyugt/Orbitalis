@@ -244,9 +244,3 @@ y = 0  (flat ecliptic plane)
 - **VR mode** — WebXR support for immersive exploration
 - **Planet comparison** — Side-by-side stats for two selected planets
 - **Search** — Jump camera to a planet by name
-
----
-
-## 📄 License
-
-MIT © Orbitalis Contributors

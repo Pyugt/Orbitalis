@@ -1,6 +1,6 @@
 # 🌌 Orbitalis — Interactive 3D Solar System Visualizer
 
-An immersive, real-time 3D Solar System simulation built with React, Three.js, Node.js, and PostgreSQL.
+An immersive, real-time 3D Solar System simulation built with React, Three.js, Node.js and PostgreSQL.
 
 ![Orbitalis Preview](https://placehold.co/1200x600/050510/6366f1?text=Orbitalis+%E2%80%94+3D+Solar+System)
 

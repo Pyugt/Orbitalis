@@ -9,7 +9,7 @@ An immersive, real-time 3D Solar System simulation built with React, Three.js, N
 ## ✨ Features
 
 ### Frontend
-- **Real-time 3D simulation** — All 8 planets orbiting the Sun using physics-based circular orbit math
+- **Real-time 3D simulation** — All 8 planets orbiting the Sun using physics-based circular orbit math.
 - **Frame-rate independent animation** — Delta time ensures consistent speeds at any refresh rate
 - **Adjustable simulation speed** — 0.1× slow-motion to 10× fast-forward
 - **Pause / Play** — Freeze time at any moment

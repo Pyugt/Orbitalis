@@ -1,4 +1,4 @@
-# 🌌 Orbitalis
+# Orbitalis
 
 > An immersive, real-time 3D Solar System simulator — explore all eight planets with physics-based orbits, live data, and a cinematic starfield.
 
@@ -10,35 +10,35 @@
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 **[→ orbitalis-sv.vercel.app](https://orbitalis-sv.vercel.app/)**
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🪐 3D Simulation
+###  3D Simulation
 - All **8 planets** orbiting the Sun with physics-based circular orbit math
 - **Frame-rate independent animation** via delta time — consistent at 30fps, 60fps, or 144fps
 - **Saturn's rings** rendered as transparent ring geometry
 - **6,000-star procedural starfield** background
 
-### 🎮 Interactive Controls
+###  Interactive Controls
 - **Adjustable simulation speed** — 0.1× slow-motion to 10× fast-forward
 - **Pause / Play** — freeze time at any moment
 - **Orbit, zoom, and pan** with mouse or touch (via OrbitControls)
 - **Reset camera** — one click back to default top-down view
 - **Click any planet** to open a slide-in info panel with live API data
 
-### 🖥️ UI & UX
+###  UI & UX
 - **Toggleable planet labels** with occlusion behind objects
 - **Toggleable orbit rings** for all planets
 - **Glassmorphism dark UI** with blur and border glow
 - **Live/offline API badge** in the header
 - **Responsive** — works on desktop and tablet
 
-### ⚙️ Backend
+###  Backend
 - **REST API** with clean, validated endpoints
 - **PostgreSQL + Prisma ORM** — type-safe migrations and queries
 - **Seed data** — all 8 planets pre-loaded with accurate relative data
@@ -48,7 +48,7 @@
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -65,7 +65,7 @@
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 orbitalis/
@@ -97,7 +97,7 @@ orbitalis/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -137,7 +137,7 @@ npm run dev                          # Start on http://localhost:5173
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -171,7 +171,7 @@ npm run dev                          # Start on http://localhost:5173
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 **`backend/.env`**
 ```env
@@ -203,7 +203,7 @@ Delta time (seconds since last frame) keeps orbits perfectly frame-rate independ
 
 ---
 
-## 🔮 Roadmap
+##  Roadmap
 
 - [ ] **Texture maps** — Real planetary textures from NASA public domain
 - [ ] **Moons** — Orbital satellites (Earth's Moon, Jupiter's Galilean moons)
@@ -217,7 +217,7 @@ Delta time (seconds since last frame) keeps orbits perfectly frame-rate independ
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to open an issue to discuss ideas or submit a pull request.
 

@@ -1,6 +1,6 @@
 # Orbitalis
 
-> An immersive, real-time 3D Solar System simulator — explore all eight planets with physics-based orbits, live data, and a cinematic starfield
+> An immersive, real-time 3D Solar System simulator — explore all eight planets with physics-based orbits, live data, and a cinematic starfield.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-orbitalis--sv.vercel.app-6366f1?style=for-the-badge&logo=vercel)](https://orbitalis-sv.vercel.app/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
